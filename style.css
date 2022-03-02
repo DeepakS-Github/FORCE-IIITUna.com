@@ -146,24 +146,24 @@ body::-webkit-scrollbar{
 
 
 /* Hamburger Menu */
-
 .mobmenu{
   display: none;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 
 .ham-menu{
   z-index: 1;
   position: absolute;
-  margin: 15px;
-  padding: 5px 0;
+  margin: 8px;
+  padding: 3px 0;
   background: #fff;
   display: flex;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   right: 0;
+  
 }
 
 
@@ -172,7 +172,8 @@ body::-webkit-scrollbar{
 .nav-links{
   flex: 1;
   text-align: right;
-
+  
+  
 }
 
 .nav-links ul li{
@@ -193,6 +194,28 @@ display: flex;
 
 
 @media screen and (max-width: 1200px) {
+
+  
+.navigationlogo{
+    z-index: 1;
+    position: absolute;
+    margin: 8px;
+    padding: 3px 0;
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  
+  .navigationlogo img{
+    width:63px;
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto 5px;
+  }
+
+
+  
   .mobmenu{
     display: block;
   }
@@ -210,7 +233,7 @@ display: flex;
 .nav-links ul li span{
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 25px;
+  margin-top: 13px;
 }
 
 
@@ -239,11 +262,15 @@ display: flex;
       color: crimson;
       font-size: 25px;
       cursor: pointer;
-      margin: 20px 30px;
+      margin: 10px 20px;
       
   }
   nav .closebtn{
     color: white;
+  }
+
+  nav .openbtn{
+    font-size: 20px;
   }
   
 
@@ -253,7 +280,6 @@ display: flex;
 
   
 }
-
 
 
 
@@ -351,6 +377,10 @@ display: flex;
   font-size: 30px;
 }
 
+.head_for_mobile{
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   /* To prevent scrolling left and right in mobile */
   html,body{
@@ -365,7 +395,7 @@ display: flex;
   .head_for_mobile{
     display: flex;
     justify-content: center;
-    padding-top: 170px;
+    padding-top: 145px;
   }
 
   .mobtxt_for_mobile{
