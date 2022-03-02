@@ -29,8 +29,14 @@ body::-webkit-scrollbar{
     height: 610px;
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-}
+  }
+  
+  @media screen and (max-width:1200px) {
+    .mainbanner{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 
+  }
+}
 
 
 /* Navigation bar -> Navigation Logo */
@@ -149,7 +155,7 @@ body::-webkit-scrollbar{
 .mobmenu{
   display: none;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 
@@ -164,6 +170,8 @@ body::-webkit-scrollbar{
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   right: 0;
   
+  z-index: 2;
+  
 }
 
 
@@ -172,6 +180,7 @@ body::-webkit-scrollbar{
 .nav-links{
   flex: 1;
   text-align: right;
+  position: relative;
   
   
 }
@@ -254,7 +263,7 @@ display: flex;
       right: -250px;
       text-align: left;
       z-index: 2;
-      transition: 1.25s;
+      transition: 0.5s;
   }
 
   nav .fa{
@@ -1022,6 +1031,9 @@ display: flex;
   .max-width{
     padding: 0 25px;
   }
+  .max-width h1{
+    font-size: 30px;
+  }
   .card{
     width: calc(50% - 10px);
     margin-bottom: 20px;
@@ -1398,7 +1410,18 @@ h2{
   .colt{
     flex: 100%;
     max-width: 80%;
+  } 
+  main h1{
+    font-size: 30px;
   }
+
+  .inner h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  
+  
 }
 
 @media screen and (max-width:600px) {
