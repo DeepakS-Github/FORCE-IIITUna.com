@@ -31,12 +31,8 @@ body::-webkit-scrollbar{
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   }
   
-  @media screen and (max-width:1200px) {
-    .mainbanner{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 
-  }
-}
+
 
 
 /* Navigation bar -> Navigation Logo */
