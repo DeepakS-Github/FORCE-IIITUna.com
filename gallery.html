@@ -88,7 +88,32 @@
                   </li>
               </ul>
             </div>
+
+             <!-- Hamburger Menu -->
+    <div class="mobmenu">
+        <div class="ham-menu">
+          <nav>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times closebtn" aria-hidden="true" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i><span>HOME</span></a></li>
+                <li><a href="about.html"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>ABOUT</span></a></li>
+                <li><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i><span>TEAM</span></a></li>
+                <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i><span>GALLERY</span></a></li>
+                <li><a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i><span>EVENTS</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i><span>CONTACT</span></a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+          </nav>
+        </div>
+      </div>
           </div>
+
+          
+   
+    
+    
 
 
         <!-- Other Elements of Banner -> Banner heading and Banner images -->
@@ -245,29 +270,7 @@
 
     </script>
 
-    <!-- Javascript for upper banner buttons-->
-    <script>
-        var btn = document.getElementsByClassName("btncontain");
-        var gallery = document.getElementById("gallerycontain");
-
-        var images = new Array(
-            "images/pic1.jpg",
-            "images/pic2.jpg",
-            "images/pic3.jpg",
-            "images/pic4.jpg",
-        );
-
-        for (let i = 0; i < btn.length; i++) {
-            btn[i].onclick = function () {
-                gallery.src = images[i];
-                let current = document.getElementsByClassName("activecontain");
-                current[0].className = current[0].className.replace("activecontain", "");
-                this.className += " activecontain";
-            };
-        }
-
-    </script>
-
+ 
      <!-- Footer -->
 
   <footer>
@@ -330,6 +333,19 @@
     window.addEventListener("load", function(){
         loader.style.display="none";
     })
+</script>
+
+
+  <!-- -------------- JavaScript for Toggle Menu -------------- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-250px";
+    }
 </script>
 </body>
 

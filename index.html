@@ -26,7 +26,7 @@
 
   <div id="preloader"></div>
 
- 
+
 
 
 
@@ -101,6 +101,31 @@
           </li>
         </ul>
       </div>
+
+
+      <!-- Hamburger Menu -->
+      <div class="mobmenu">
+        <div class="ham-menu">
+          <nav>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times closebtn" aria-hidden="true" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i><span>HOME</span></a></li>
+                <li><a href="about.html"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>ABOUT</span></a></li>
+                <li><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i><span>TEAM</span></a></li>
+                <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i><span>GALLERY</span></a>
+                </li>
+                <li><a href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i><span>EVENTS</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i><span>CONTACT</span></a>
+                </li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+          </nav>
+        </div>
+      </div>
+
+
     </div>
 
 
@@ -132,6 +157,15 @@
       <div class="text-bottom">
         <div>Forum of Computer Engineers</div>
       </div>
+    </div>
+
+    <div class="head_for_mobile">
+      
+        <div class="mobtxt_for_mobile">
+          <div>FORCE</div><div class="stline"></div><div class="bigmsg">Forum of Computer Engineers</div>
+        </div>
+      
+      
     </div>
 
 
@@ -265,7 +299,7 @@
     <div class="max-width">
       <h1>Honors and Achievements</h1>
       <div class="content">
-        <div class="card" >
+        <div class="card">
           <div class="box">
             <i class="fa fa-desktop"></i>
             <h2>Smart India Hackathon</h2>
@@ -360,13 +394,13 @@
   <!-- ---- Call to Action ---- -->
 
   <section class="cta">
-    <h1>As we have to follow proper rules at programming to make it run properly. <br>Similarly, Force members have to
-      follow particular protocols <br> to clarify our mission, values and principles.</h1>
+    <h1>As we have to follow proper rules at programming to make it run properly. Similarly, Force members have to
+      follow particular protocols to clarify our mission, values and principles.</h1>
     <a href="code_of_conduct.html" class="hero-btn">Code of Conduct</a>
   </section>
 
 
-  
+
 
 
 
@@ -519,7 +553,8 @@
               <i class="fa fa-star-half-o"></i>
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id nemo.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id
+              nemo.</p>
           </div>
         </div>
 
@@ -535,7 +570,8 @@
               <i class="fa fa-star"></i>
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id nemo.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id
+              nemo.</p>
           </div>
         </div>
 
@@ -551,7 +587,8 @@
               <i class="fa fa-star-o"></i>
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id nemo.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor quibusdam perferendis modi, id
+              nemo.</p>
           </div>
         </div>
       </div>
@@ -614,7 +651,7 @@
 
 
 
-  
+
 
 
 
@@ -849,14 +886,26 @@
   </script>
 
 
-<!-- JS for Preloader -->
-<script>
-  var loader = document.getElementById("preloader");
+  <!-- JS for Preloader -->
+  <script>
+    var loader = document.getElementById("preloader");
 
-  window.addEventListener("load", function(){
-      loader.style.display="none";
-  })
-</script>
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+  </script>
+
+  <!-- -------------- JavaScript for Toggle Menu -------------- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-250px";
+    }
+  </script>
 
 
 </body>

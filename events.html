@@ -22,8 +22,7 @@
 
 
     <!-- Swiper CDN Link -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 </head>
 
@@ -33,75 +32,104 @@
 
     <div id="preloader"></div>
 
-    
-<!-- Navigation bar -->
-<div class="navigationbar">
-    <!-- Navigation Logo -->
-    <div class="navigationlogo">
-      <img src="force-logo.png" alt="">
-    </div>
 
-    <!-- Navigation menu -->
-    <div class="navigationmenu">
-      <ul>
-          <li>
-              <a href="index.html">
-                  <div class="icon">
-                      <i class="fa fa-home" aria-hidden="true"></i>
-                      <i class="fa fa-home" aria-hidden="true"></i>
-                  </div>
-                  <div class="name"><span data-text="Home">Home</span></div>
-              </a>
-          </li>
-          <li>
-              <a href="about.html">
-                  <div class="icon">
-                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                  </div>
-                  <div class="name"><span data-text="About">About</span></div>
-              </a>
-          </li>
-          <li>
-              <a href="team.html">
-                  <div class="icon">
-                      <i class="fa fa-users" aria-hidden="true"></i>
-                      <i class="fa fa-users" aria-hidden="true"></i>
-                  </div>
-                  <div class="name"><span data-text="Team">Team</span></div>
-              </a>
-          </li>
-          <li>
-              <a href="gallery.html">
-                  <div class="icon">
-                      <i class="fa fa-picture-o" aria-hidden="true"></i>
-                      <i class="fa fa-picture-o" aria-hidden="true"></i>
-                  </div>
-                  <div class="name"><span data-text="Gallery">Gallery</span></div>
-              </a>
-          </li>
-          <li>
-              <a href="events.html">
-                  <div class="icon">
-                      <i class="fa fa-calendar" aria-hidden="true"></i>
-                      <i class="fa fa-calendar" aria-hidden="true"></i>
-                  </div>
-                  <div class="name"><span data-text="Events">Events</span></div>
-              </a>
-          </li>
-          <li>
-              <a href="contact.html">
-                  <div class="icon">
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                      
-                  </div>
-                  <div class="name"><span data-text="Contact">Contact</span></div>
-              </a>
-          </li>
-      </ul>
+    <!-- Navigation bar -->
+    <div class="navigationbar">
+        <!-- Navigation Logo -->
+        <div class="navigationlogo">
+            <img src="force-logo.png" alt="">
+        </div>
+
+        <!-- Navigation menu -->
+        <div class="navigationmenu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <div class="icon">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </div>
+                        <div class="name"><span data-text="Home">Home</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <div class="icon">
+                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="name"><span data-text="About">About</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="team.html">
+                        <div class="icon">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <div class="name"><span data-text="Team">Team</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        <div class="icon">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="name"><span data-text="Gallery">Gallery</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="events.html">
+                        <div class="icon">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </div>
+                        <div class="name"><span data-text="Events">Events</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="name"><span data-text="Contact">Contact</span></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Hamburger Menu -->
+        <div class="mobmenu">
+            <div class="ham-menu">
+                <nav>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times closebtn" aria-hidden="true" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i><span>HOME</span></a>
+                            </li>
+                            <li><a href="about.html"><i class="fa fa-file-text-o"
+                                        aria-hidden="true"></i><span>ABOUT</span></a></li>
+                            <li><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i><span>TEAM</span></a>
+                            </li>
+                            <li><a href="gallery.html"><i class="fa fa-picture-o"
+                                        aria-hidden="true"></i><span>GALLERY</span></a></li>
+                            <li><a href="events.html"><i class="fa fa-calendar"
+                                        aria-hidden="true"></i><span>EVENTS</span></a></li>
+                            <li><a href="contact.html"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i><span>CONTACT</span></a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+                </nav>
+            </div>
+        </div>
+
+
     </div>
-  </div>
 
 
     <!-- Event Banner Starts Here -->
@@ -109,17 +137,17 @@
     <section class="teambanner">
         <!-- Content -->
 
-            <div>
-                EVENTS
-            </div>
+        <div>
+            EVENTS
+        </div>
     </section>
 
-<!-- Event Banner Ends Here -->
+    <!-- Event Banner Ends Here -->
 
     <div class="events">
         <div id="calendar"></div>
     </div>
-</div>
+    </div>
 
 
 
@@ -129,62 +157,62 @@
     <div class="eventsliders">
         <div class="crimsonlinetop"></div>
 
-    <div class="slidercontainer">
+        <div class="slidercontainer">
 
 
-        <h1>Current Events</h1>
+            <h1>Current Events</h1>
 
-    <!-- Slider main container -->
-    <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide"><img src="events_slider_images/current_events_images/event1.jpeg"></div>
-    <div class="swiper-slide"><img src="events_slider_images/current_events_images/event2.jpeg"></div>
-      
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    </div>
-    
-   
-    </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="events_slider_images/current_events_images/event1.jpeg"></div>
+                    <div class="swiper-slide"><img src="events_slider_images/current_events_images/event2.jpeg"></div>
 
-    <div class="slidercontainer">
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
 
 
-        <h1>Upcoming Events</h1>
-
-    
-    <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event1.jpg"></div>
-        <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event2.jpg"></div>
-        <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event3.jpg"></div>
-        <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event4.jpg"></div>
-        <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event5.jpg"></div>
-          
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-      
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
+        <div class="slidercontainer">
+
+
+            <h1>Upcoming Events</h1>
+
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event1.jpg"></div>
+                    <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event2.jpg"></div>
+                    <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event3.jpg"></div>
+                    <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event4.jpg"></div>
+                    <div class="swiper-slide"><img src="events_slider_images/upcoming_events_images/event5.jpg"></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+        <div class="crimsonlinebottom"></div>
     </div>
 
-    </div>
-    <div class="crimsonlinebottom"></div>
-</div>
 
-    
 
     <!-- Calender Events Using evo-calender -->
 
@@ -199,56 +227,56 @@
                 theme: "Midnight Blue", // To apply particular theme
 
                 calendarEvents: [
-               //Adding Events     
-                {
-                    id: 'event1', // Event's ID (required)
-                    name: "New Year", // Event name (required)
-                    date: "January/1/2022", // Event date (required)
-                    description: "What is tody?", //Event Description
-                    type: "holiday", // Event type (required)
-                    everyYear: true // Same event every year (optional)
-                },
+                    //Adding Events     
+                    {
+                        id: 'event1', // Event's ID (required)
+                        name: "New Year", // Event name (required)
+                        date: "January/1/2022", // Event date (required)
+                        description: "What is tody?", //Event Description
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same event every year (optional)
+                    },
 
-                {
-                    id: 'event2', // Event's ID (required)
-                    name: "Republic Day", // Event name (required)
-                    date: "January/26/2022", // Event date (required)
-                    description: "The day when the Constitution of India came into force in 1950", //Event Description
-                    type: "holiday", // Event type (required)
-                    everyYear: true // Same event every year (optional)
-                },
+                    {
+                        id: 'event2', // Event's ID (required)
+                        name: "Republic Day", // Event name (required)
+                        date: "January/26/2022", // Event date (required)
+                        description: "The day when the Constitution of India came into force in 1950", //Event Description
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same event every year (optional)
+                    },
 
-                {
-                    id: 'event3', // Event's ID (required)
-                    name: "Independence Day", // Event name (required)
-                    date: "August/15/2022", // Event date (required)
-                    description: "The day when we won freedom from British power after a hard struggle in 1945", //Event Description
-                    type: "holiday", // Event type (required)
-                    everyYear: true // Same event every year (optional)
-                },
-
-
+                    {
+                        id: 'event3', // Event's ID (required)
+                        name: "Independence Day", // Event name (required)
+                        date: "August/15/2022", // Event date (required)
+                        description: "The day when we won freedom from British power after a hard struggle in 1945", //Event Description
+                        type: "holiday", // Event type (required)
+                        everyYear: true // Same event every year (optional)
+                    },
 
 
-                {
-                    name: "SKILLABHYUDAYA #1",
-                    // badge: "02/17 - 03/05", // Event badge (optional)
-                    date: ["February/17/2022", "March/05/2022"], // Date range
-                    description: "A 17 day event where you get a chance to quench your curiosity about the Web Development", // Event description (optional)
-                    type: "event1", // Initially it is event. I changed it to event1
-                    color: "#63d867" // Event custom color (optional)
-                },
 
-                {
-                    name: "SKILLABHYUDAYA #2",
-                    // badge: "02/17 - 03/05", // Event badge (optional)
-                    date: ["February/17/2022", "March/05/2022"], // Date range
-                    description: "A 17 day event where you get a chance to quench your curiosity about UI/UX Development", // Event description (optional)
-                    type: "event2", // Initially it is event. I changed it to event2
-                    color: "crimson" // Event custom color (optional)
-                },
 
-               
+                    {
+                        name: "SKILLABHYUDAYA #1",
+                        // badge: "02/17 - 03/05", // Event badge (optional)
+                        date: ["February/17/2022", "March/05/2022"], // Date range
+                        description: "A 17 day event where you get a chance to quench your curiosity about the Web Development", // Event description (optional)
+                        type: "event1", // Initially it is event. I changed it to event1
+                        color: "#63d867" // Event custom color (optional)
+                    },
+
+                    {
+                        name: "SKILLABHYUDAYA #2",
+                        // badge: "02/17 - 03/05", // Event badge (optional)
+                        date: ["February/17/2022", "March/05/2022"], // Date range
+                        description: "A 17 day event where you get a chance to quench your curiosity about UI/UX Development", // Event description (optional)
+                        type: "event2", // Initially it is event. I changed it to event2
+                        color: "crimson" // Event custom color (optional)
+                    },
+
+
                 ]
 
             })
@@ -257,59 +285,60 @@
 
 
 
-   <!-- Footer -->
+    <!-- Footer -->
 
-   <footer>
-    <div class="fcontainer">
-      <div class="sec aboutus">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias similique illo. Veritatis ipsum quia
-          voluptas quod earum distinctio, sit dolore quos facere quibusdam. Illum?</p>
+    <footer>
+        <div class="fcontainer">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias similique illo. Veritatis ipsum
+                    quia
+                    voluptas quod earum distinctio, sit dolore quos facere quibusdam. Illum?</p>
 
-        <ul class="sci">
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
 
-      <div class="sec quickLinks">
-        <h2>Quick Links</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+            <div class="sec quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
 
-      <div class="sec contact">
-        <h2>Contact Info</h2>
-        <ul class="info">
-          <li>
-            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-            <span>IIIT Una, Himachal Pradesh <br> INDIA</span>
-          </li>
-          <li>
-            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-            <p><a href="tel:+91 987 654 3210">+91 987 654 3210</a></p>
-          </li>
-          <li>
-            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-            <p><a href="mailto:kdjfo@.com">force@iiitu.ac.in</a></p>
-          </li>
-        </ul>
-      </div>
+            <div class="sec contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>IIIT Una, Himachal Pradesh <br> INDIA</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="tel:+91 987 654 3210">+91 987 654 3210</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:kdjfo@.com">force@iiitu.ac.in</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="copyrightText">
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Deepak</p>
     </div>
-  </footer>
-
-
-  <div class="copyrightText">
-    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Deepak</p>
-  </div>
 
 
 
@@ -321,39 +350,54 @@
 
     <script>
         const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  autoplay:{
-      delay: 5000,
-      disableOnInteraction: false,
+            // Optional parameters
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
 
-  },
-  loop: true,
+            },
+            loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
 
-  
-});
+
+        });
     </script>
 
 
-<!-- JS for Preloader -->
-<script>
-    var loader = document.getElementById("preloader");
+    <!-- JS for Preloader -->
+    <script>
+        var loader = document.getElementById("preloader");
 
-    window.addEventListener("load", function(){
-        loader.style.display="none";
-    })
-</script>
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script>
+
+
+
+
+    <!-- -------------- JavaScript for Toggle Menu -------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-250px";
+        }
+    </script>
 </body>
 
 </html>
