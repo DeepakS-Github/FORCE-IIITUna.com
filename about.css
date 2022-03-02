@@ -271,9 +271,10 @@ display: flex;
 
 
 
+
   /* About Banner */
   .teambanner{
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(about_banner_image/background.jpg);
     background-position: center;
@@ -351,7 +352,7 @@ h1{
     letter-spacing: 1px;
     color: crimson;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1:after{
@@ -359,8 +360,8 @@ h1:after{
     background: #333;
     display: block;
     height: 3px;
-    width: 150px;
-    margin: 10px auto;
+    width: 120px;
+    margin: 2px auto;
 }
 
 .content-section .content h3{

@@ -269,7 +269,7 @@ display: flex;
   
   /* Team Banner */
   .teambanner{
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(team_banner/team_banner_image.jpg);
     background-position: center;
