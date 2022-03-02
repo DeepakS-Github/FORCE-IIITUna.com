@@ -274,7 +274,7 @@ display: flex;
 
   /* About Banner */
   .teambanner{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(about_banner_image/background.jpg);
     background-position: center;

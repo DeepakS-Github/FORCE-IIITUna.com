@@ -267,7 +267,7 @@ display: flex;
 
   /* Contact Banner */
   .teambanner{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(contact_banner/contact_banner_img1.jpg);
     background-position: center;
