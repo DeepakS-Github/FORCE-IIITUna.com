@@ -287,7 +287,7 @@ display: flex;
 /*SVG for wavy banner */
  svg{
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
 } 
 
 
@@ -863,6 +863,22 @@ display: flex;
   z-index: 2;
 }
 
+.characterimg1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: fit-content;
+  z-index: 2;
+}
+
+
+.characterimg5{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: fit-content;
+  z-index: 2;
+}
 
 
 .column12 h1, .column21 h1, .column32 h1, .column41 h1, .column52 h1{
@@ -872,6 +888,10 @@ display: flex;
   line-height:25px;
   font-size: 20px;
   text-align: center;
+}
+
+.column52 h1::after{
+  width: 80px;
 }
 
 .column32 ul, .column41 ul, .column52 ul{
@@ -1011,6 +1031,12 @@ display: flex;
 @media screen and (max-width: 700px) {
   .card{
     width: 100%;
+  }
+  .achieved .team1 ul{
+    margin-right: 10px;
+  }
+  .achieved .team1 ul{
+    margin-left: 10px;
   }
 }
 
@@ -1544,6 +1570,10 @@ footer p{
     
     padding: 8px 40px ;
     
+  }
+
+  footer p{
+    width: 85vw;
   }
 }
 
